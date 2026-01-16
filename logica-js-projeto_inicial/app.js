@@ -27,9 +27,9 @@ alert("Erro! Preencha todos os campos");
 let mensagemDeErro = ("Erro! Preencha todos os campos");
 alert(mensagemDeErro);
 
-let nomeDoUsuario = prompt("Digite o seu nome")/
+let nomeDoUsuario = prompt("Digite o seu nome") /
 
-let idade = prompt("Digite a sua idade");
+    let idade = prompt("Digite a sua idade");
 
 let idade = prompt("Digite a sua idade");
 if (idade >= 18) {
@@ -41,27 +41,33 @@ if (idade >= 18) {
 alert('Boas vindas ao jogo do Número Secreto!');
 
 let numeroSecreto = 29;
-let chute = prompt('Escolha um número entre 1 e 30');
+let chute
 
+// enquanto
+while (chute != numeroSecreto) {
+    chute = prompt("Escolha um número entre 1 e 10");
 
-if (chute == numeroSecreto) {
-    alert(`Parabéns, você descobriu o número secreto! ${numeroSecreto}`);
-} else {
-    if (chute > numeroSecreto) {
-        alert(`O número secreto é menor que ${chute}`);
+    if (chute == numeroSecreto) {
+        alert(`Parabéns, você descobriu o número secreto! ${numeroSecreto}`);
     } else {
-        alert(`O número secreto é maior que ${chute}`)´;
+        if (chute > numeroSecreto) {
+            alert(`O número secreto é menor que ${chute}`);
+        } else {
+            alert(`O número secreto é maior que ${chute}`);
+        }
     }
-} 
+
+}
+
 
 // atividades aula 2 
 
-let fimdeSemana = sábado , domingo // errado
+let fimdeSemana = sábado, domingo // errado
 
 let resposta = prompt("Qual é o dia semana?");
 if (resposta == fimdeSemana)
     alert("Bom fim de semana!");
-else{
+else {
     alert("Boa semana!");
 }
 
@@ -79,7 +85,7 @@ if (numero > 0) {
     alert("Seu número é positivo!");
 } else {
     ("Seu número é negativo!")
-} 
+}
 
 pontuação = 105;
 
@@ -93,6 +99,6 @@ let saldoConta = 500;
 alert(`Seu saldo é de R$${saldoConta}.`);
 
 let nome = prompt("Digite o seu nome: ");
-alert(´Bem vindo ao jogo ${nome}´);
+alert(´Bem vindo ao jogo ${ nome }´);
 
 // AULA 3
