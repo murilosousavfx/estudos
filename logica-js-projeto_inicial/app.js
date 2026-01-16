@@ -43,11 +43,15 @@ alert('Boas vindas ao jogo do Número Secreto!');
 let numeroSecreto = 29;
 let chute = prompt('Escolha um número entre 1 e 30');
 
+
 if (chute == numeroSecreto) {
-    console.log(`Parabéns, você descobriu o número secreto! ${numeroSecreto}
-        `);
-} else{
-    alert("Você errou: ")
+    alert(`Parabéns, você descobriu o número secreto! ${numeroSecreto}`);
+} else {
+    if (chute > numeroSecreto) {
+        alert(`O número secreto é menor que ${chute}`);
+    } else {
+        alert(`O número secreto é maior que ${chute}`)´;
+    }
 } 
 
 // atividades aula 2 
@@ -90,3 +94,5 @@ alert(`Seu saldo é de R$${saldoConta}.`);
 
 let nome = prompt("Digite o seu nome: ");
 alert(´Bem vindo ao jogo ${nome}´);
+
+// AULA 3
