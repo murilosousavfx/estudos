@@ -69,3 +69,10 @@ if (diaDaSemana == 'Sábado') {
 } else {
     alert('Boa semana!');
 }
+
+let numero = prompt("Digite um número: ");
+if (numero > 0) {
+    alert("Seu número é positivo!");
+} else {
+    ("Seu número é negativo!")
+}
