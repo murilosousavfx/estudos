@@ -105,4 +105,31 @@ alert(`Seu saldo é de R$${saldoConta}.`);
 let nome = prompt("Digite o seu nome: ");
 alert(´Bem vindo ao jogo ${ nome }´);
 
-// AULA 3
+// atividades aula 3 
+
+let contador = 1;
+while (contador <= 10) {
+    console.log(contador);
+    contador++;
+}
+
+let contador = 10;
+while (contador >= 0) {
+    console.log(contador);
+    contador--;
+}
+
+let numeroMaximo = prompt("Digite um número: ")
+
+while (numeroMaximo >= 0) {
+    console.log(numeroMaximo);
+    numeroMaximo--;
+}
+
+let NumeroMaximo = prompt("Digite um número: ")
+let contador = 0;
+
+while (contador <= NumeroMaximo) {
+    console.log(contador);
+    contador++;
+}
