@@ -50,7 +50,7 @@ while (chute != numeroSecreto) {
     chute = prompt("Escolha um número entre 1 e 10");
 
     if (chute == numeroSecreto) {
-        alert(`Parabéns, você descobriu o número secreto! ${numeroSecreto}`);
+        alert(`Parabéns, você descobriu o número secreto! ${numeroSecreto} com ${tentativas}`);
     } else {
         if (chute > numeroSecreto) {
             alert(`O número secreto é menor que ${chute}`);
@@ -58,8 +58,8 @@ while (chute != numeroSecreto) {
             alert(`O número secreto é maior que ${chute}`);
         }
     }
-    
-    tentativas = tentativas + 1;
+
+    tentativas++;
 
 }
 
