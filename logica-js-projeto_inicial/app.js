@@ -41,10 +41,12 @@ if (idade >= 18) {
 alert('Boas vindas ao jogo do Número Secreto!');
 
 let numeroSecreto = 29;
-let chute
-
+console.log(numeroSecreto);
+let chute;
+let tentativas = 1;
 // enquanto
 while (chute != numeroSecreto) {
+
     chute = prompt("Escolha um número entre 1 e 10");
 
     if (chute == numeroSecreto) {
@@ -56,6 +58,8 @@ while (chute != numeroSecreto) {
             alert(`O número secreto é maior que ${chute}`);
         }
     }
+    
+    tentativas = tentativas + 1;
 
 }
 
