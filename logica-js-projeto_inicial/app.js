@@ -75,4 +75,18 @@ if (numero > 0) {
     alert("Seu número é positivo!");
 } else {
     ("Seu número é negativo!")
+} 
+
+pontuação = 105;
+
+if (pontuação >= 100) {
+    console.log("Parabéns, você venceu!")
+} else {
+    console.log("Tente novamente para ganhar!")
 }
+
+let saldoConta = 500;
+alert(`Seu saldo é de R$${saldoConta}.`);
+
+let nome = prompt("Digite o seu nome: ");
+alert(´Bem vindo ao jogo ${nome}´);
