@@ -64,12 +64,15 @@ while (chute != numeroSecreto) {
 
 }
 
+
 let palavraTentativa = tentativas > 1 ? 'tentativas' : 'tentativa'
-if (tentativas > 1) {
-    alert(`Parabéns, você descobriu o número secreto! ${numeroSecreto} com ${tentativas}`);
-} else {
-    alert(`Parabéns, você descobriu o número secreto! ${numeroSecreto} com ${tentativas}`);
-}
+alert(`Parabéns, você descobriu o número secreto! ${numeroSecreto} com ${tentativas} ${palavraTentativa}`);
+
+// if (tentativas > 1) {
+//    alert(`Parabéns, você descobriu o número secreto! ${numeroSecreto} com ${tentativas}`);
+// } else {
+//    alert(`Parabéns, você descobriu o número secreto! ${numeroSecreto} com ${tentativas}`);
+// }
 
 
 // atividades aula 2 
