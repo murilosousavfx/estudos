@@ -5,4 +5,4 @@
 - Raciocínio (Entender como a máquina pensa)
 - Uso de "if" "else"
 - Uso de "break"
-- "Uso de Math.random()"
+- Uso de "Math.random()"
