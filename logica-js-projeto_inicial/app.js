@@ -144,3 +144,40 @@ while (contador <= NumeroMaximo) {
     console.log(contador);
     contador++;
 }
+
+// atividades aula 4
+
+console.log("Seja bem vindo(a)!");
+
+let nome = Murilo;
+console.log(´Olá, ${nome}´);
+
+let nome = Alex;
+alert(´Olá, ${nome}!);
+
+let linguagemdeProgramação = prompt("Qual é a sua linguagem de programação favorita?")
+console.log(linguagemdeProgramação);
+
+let valor = 1;
+let valor2 = 55;
+let resultado = valor + valor2
+
+console.log(´A soma de ${valor} e ${valor2} é igual a ${resultado}´);
+
+let idade = prompt("Digite a sua idade: ");
+if (idade > 17) {
+    console.log("Você é maior de idade!")
+} else {
+    console.log("Você é menor de idade!")
+}
+
+var numero = parseFloat(prompt("Digite um número:"));
+
+
+if (numero > 0) {
+    console.log("O número é positivo.");
+} else if (numero < 0) {
+    console.log("O número é negativo.");
+} else {
+    console.log("O número é zero.");
+}
