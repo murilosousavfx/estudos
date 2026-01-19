@@ -39,15 +39,16 @@ if (idade >= 18) {
 // AULA 2 // CONTINUAÇÃO DO CÓDIGO DA PRIMEIRA AULA
 
 alert('Boas vindas ao jogo do Número Secreto!');
+let numeroMaximo = 5000;
 
-let numeroSecreto = parseInt(Math.random() * 100 + 1);
+let numeroSecreto = parseInt(Math.random() * numeroMaximo + 1);
 console.log(numeroSecreto);
 let chute;
 let tentativas = 1;
 // enquanto
 while (chute != numeroSecreto) {
 
-    chute = prompt("Escolha um número entre 1 e 100");
+    chute = prompt(´Escolha um número entre 1 e ${numeroMaximo}´);
 
     if (chute == numeroSecreto) {
         break;
